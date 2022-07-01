@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node main"
+    "dev": "nodemon node ./algorithms/AddTwoNumbers.js"
   },
   "keywords": [],
   "author": "",
