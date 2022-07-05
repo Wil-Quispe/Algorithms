@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node ./algorithms/LongestCommonPrefix.js"
+    "dev": "nodemon node ./algorithms/StrStr.js"
   },
   "keywords": [],
   "author": "",
