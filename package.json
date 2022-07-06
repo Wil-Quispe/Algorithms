@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node ./algorithms/lengthOfLastWord.js"
+    "dev": "nodemon node ./algorithms/SearchInsert.js"
   },
   "keywords": [],
   "author": "",
