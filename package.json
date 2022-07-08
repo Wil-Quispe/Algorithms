@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node ./algorithms/SearchInsert.js"
+    "dev": "nodemon node ./algorithms/AddBinary.js"
   },
   "keywords": [],
   "author": "",
