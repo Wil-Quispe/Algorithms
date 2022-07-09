@@ -18,3 +18,5 @@ const PascalTriangle = numRows => {
 }
 
 console.log(PascalTriangle(5))
+
+// this was done with help of a youtuber
