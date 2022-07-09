@@ -13,10 +13,6 @@ const AddBinary = (a, b) => {
     const d = greater[0][i]
     const k = greater[1].at(counter)
     console.log({ d, k })
-    //                      1
-    // 110010 --> A --> 111101
-    // 100 --> B -->    01
-    //                       0
 
     if (d === '1' && k === '1') {
       if (lleva === '1') {
@@ -29,9 +25,21 @@ const AddBinary = (a, b) => {
       sum = `0${sum}`
       counter--
     } else if (d === '0' && k === '1') {
+      if (lleva === '1') {
+        sum = `0${sum}`
+        lleva = '1'
+        counter--
+        continue
+      }
       sum = `1${sum}`
       counter--
     } else if (d === '1' && k === '0') {
+      if (lleva === '1') {
+        sum = `0${sum}`
+        lleva = '1'
+        counter--
+        continue
+      }
       sum = `1${sum}`
       counter--
     } else if (d === '0' && k === '0') {
@@ -69,7 +77,8 @@ const AddBinary = (a, b) => {
 
 // AddBinary('101111', '10')
 // AddBinary('100', '110010')
-AddBinary('110010', '10111')
+// AddBinary('110010', '10111')
+AddBinary('1110101', '1001011')
 
 // for (let j = b.length - 1; j >= 0; j--) {
 //   const k = b[j]
