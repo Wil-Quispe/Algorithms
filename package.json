@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node ./algorithms/PascalTriangle.js"
+    "dev": "nodemon node ./algorithms/FindMedianSortedArrays.js"
   },
   "keywords": [],
   "author": "",
