@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node ./algorithms/SingleNumber.js"
+    "dev": "nodemon node ./algorithms/MissingNumber.js"
   },
   "keywords": [],
   "author": "",
