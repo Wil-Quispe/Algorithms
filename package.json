@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node ./algorithms/FindMedianSortedArrays.js"
+    "dev": "nodemon node ./algorithms/SingleNumber.js"
   },
   "keywords": [],
   "author": "",
