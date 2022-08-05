@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node ./algorithms/Merge.js"
+    "dev": "nodemon node ./algorithms/MajorityElement.js"
   },
   "keywords": [],
   "author": "",
