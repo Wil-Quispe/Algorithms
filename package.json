@@ -5,7 +5,7 @@
   "type":"module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon node ./algorithms/MoveZeroes.js"
+    "dev": "nodemon node ./algorithms/Merge.js"
   },
   "keywords": [],
   "author": "",
